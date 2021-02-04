@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Проектные системы</title>
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/normalize.css">
+
+
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+
+  <link rel="stylesheet" href="css/jquery-ui.css">  
+  <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+  <script src="js/jquery-ui.js"></script>
+
+  <script src="js/index.js"></script>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header-logo">
+      <a class="header-logo__link" href="#">
+        <img class="header-logo__image" src="img/logo_1.jpg" alt="Логотип">
+      </a>
+    </div>
+    <nav class="header__navigation">
+      <ul class="header__list">
+        <li class="header__list-item">
+          <a class="header__list-item_link" href="#">О&nbsp;нас</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item_link" href="#">Проекты</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item_link" href="#">Этапы</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item_link" href="#">Отзывы</a>
+        </li>
+        <li class="header__list-item">
+          <a class="header__list-item_link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+    <button class="header__find-button" aria-label="Кнопка найти"></button>
+    <button class="header__burger-button" aria-label="Кнопка меню"></button>
+    <nav class="header__burger_navigation">
+      <ul class="header__burger_list">
+        <li class="header__burger_list-item">
+          <a class="header__burger_list-item_link" href="#">О&nbsp;нас</a>
+        </li>
+        <li class="header__burger_list-item">
+          <a class="header__burger_list-item_link" href="#">Проекты</a>
+        </li>
+        <li class="header__burger_list-item">
+          <a class="header__burger_list-item_link" href="#">Этапы</a>
+        </li>
+        <li class="header__burger_list-item">
+          <a class="header__burger_list-item_link" href="#">Отзывы</a>
+        </li>
+        <li class="header__burger_list-item">
+          <a class="header__burger_list-item_link" href="#">Контакты</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main class="container">
+    <article class="main-top swiper-container">
+      <div class="swiper-wrapper" style="width: 100%;">
+        <div class="swiper-slide">
+          <img src="img/photo-of-balconies.jpg" alt="Балконы">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/photo-blue-glass-building.jpg" alt="Стеклянное здание">
+        </div>
+        <div class="swiper-slide">
+          <img src="img/photo-building-architecture.jpg" alt="Строительная архитектура">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+      <div class="main-top_container">
+        <h1 class="main-top__title">Проектные решения любой сложности</h1>
+        <p class="main-top__description">Есть над чем задуматься: базовые сценарии поведения пользователей и по сей день
+          остаются уделом проектантов</p>
+        <button class="main-top__button" type="submit">Заказать расчет</button>
+      </div>
+    </article>
+
+    <section class="about-section">
+      <h2 class="about-section__title">О нас</h2>
+      <div class="about-section__description-container">
+        Также как перспективное планирование создаёт необходимость включения в производственный план целого ряда
+        внеочередных мероприятий
+        с учётом комплекса экспериментов, поражающих по своей масштабности и грандиозности. А также диаграммы связей
+        могут быть описаны
+        максимально подробно. Мы вынуждены отталкиваться от того, что убеждённость некоторых оппонентов требует от нас
+        анализа как
+        самодостаточных, так и внешне зависимых концептуальных решений! Следует отметить, что высококачественный
+        прототип
+        <i class="fa fa-info-circle about-section__description-container_inf-symbol" aria-hidden="true"></i>
+        будущего проекта предопределяет высокую востребованность позиций, занимаемых участниками в отношении
+        поставленных задач.
+        Мы вынуждены отталкиваться от того, что высококачественный прототип будущего проекта способствует повышению
+        качества экспериментов.
+      </div>
+
+      <div class="about-section__bottom">
+        <div class="about-section__bottom-left">
+          <div class="about-section__bottom-left_worker-container">
+            <p class="about-section__bottom-left_worker-text">
+              Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и
+              реализации новых принципов.
+            </p>
+            <button class="about-section__bottom-left_detail-button" type="submit">Подробнее</button>
+          </div>
+        </div>
+        <div class="about-section__bottom-left-mobile">
+          <img class="about-section__bottom-left-mobile_img" src="img/worker.jpg" alt="Рабочий">
+          <p class="about-section__bottom-left_worker-text-mobile">
+            Принимая во внимание показатели успешности, перспективное планирование способствует подготовке и
+            реализации новых принципов.
+          </p>
+          <button class="about-section__bottom-left_detail-button" type="submit">Подробнее</button>
+        </div>
+        <div class="about-section__bottom-right">
+          <article class="about-section__bottom-right_consultation">
+            <h3 class="about-section__bottom-right_consultation-title">Консультация с широким активом</h3>
+            <p class="about-section__bottom-right_consultation-description">
+              А также свежий взгляд на привычные вещи - безусловно открывает новые горизонты для как самодостаточных,
+              так и внешне зависимых концептуальных решений.
+            </p>
+          </article>
+          <article class="about-section__bottom-right_improve">
+            <h3 class="about-section__bottom-right_improve-title">В своём стремлении повысить</h3>
+            <p class="about-section__bottom-right_improve-description">Качество жизни, они забывают, что сплочённость
+              команды профессионалов
+              представляет собой интересный эксперимент проверки прогресса профессионального сообщества.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="our-work">
+      <h2 class="our-work__title">Как мы работаем</h2>
+      <ul class="our-work__stages-list">
+        <li class="our-work__stages-list-item"><a class="our-work__stages-list-item-link" aria-label="Первый шаг"
+            href="#">1&nbsp;шаг</a></li>
+        <li class="our-work__stages-list-item"><a class="our-work__stages-list-item-link" aria-label="Второй шаг"
+            href="#">2&nbsp;шаг</a></li>
+        <li class="our-work__stages-list-item"><a class="our-work__stages-list-item-link" aria-label="Третий шаг"
+            href="#">3&nbsp;шаг</a></li>
+        <li class="our-work__stages-list-item"><a class="our-work__stages-list-item-link" aria-label="Четвертый шаг"
+            href="#">4&nbsp;шаг</a></li>
+      </ul>
+      <div class="our-work__stages-description">
+        <div class="our-work__left">
+          <article class="our-work-consultation">
+            <h3 class="our-work-consultation__title">Проводим консультацию</h3>
+            <p class="our-work-consultation__description">
+              Влечет за собой процесс внедрения и модернизации приоритизации разума над эмоциями. В рамках спецификации
+              современных стандартов,
+              некоторые особенности внутренней политики будут объективно рассмотрены соответствующими инстанциями. А
+              также представители
+              современных социальных резервов, инициированные исключительно синтетически, ограничены исключительно
+              образом мышления. Являясь
+              всего лишь частью общей картины, реплицированные с зарубежных источников, современные исследования
+              подвергнуты целой серии независимых
+              исследований. Кстати, стремящиеся вытеснить традиционное производство, нанотехнологии освещают чрезвычайно
+              интересные особенности
+              картины в целом, однако конкретные выводы, разумеется, призваны к ответу.
+            </p>
+            <button class="our-work-consultation__button-detail" type="submit">Подробнее</button>
+            <button class="our-work-consultation__button-contract" type="submit">Договор</button>
+          </article>
+        </div>
+        <div class="our-work__right">
+          <!--<img class="our-work__right_img"  src="img/consultation.jpg" alt="Консультации">-->
+        </div>
+      </div>
+    </section>
+    <section class="faq">
+      <h2 class="faq__title">Часто задаваемые вопросы</h2>
+      <div class="faq__list" id="accordion">
+        <h3 class="faq__list-item">Из чего формируется конечная стоимость проекта?
+          <button class="faq__list-item-button" aria-label="Из чего формируется конечная стоимость проекта?"
+            type="button"></button>
+
+        </h3>
+        <div>
+          <p>
+            Являясь всего лишь частью общей картины, непосредственные участники технического прогресса призывают нас к
+            новым свершениям, которые, в свою очередь, должны быть своевременно верифицированы. Но высококачественный
+            прототип будущего проекта является качественно новой ступенью первоочередных требований. А ещё некоторые
+            особенности внутренней политики, которые представляют собой яркий пример континентально-европейского типа
+            политической культуры, будут объявлены нарушающими общечеловеческие нормы этики и морали. И нет сомнений,
+            что
+            явные признаки победы институционализации призывают нас к новым свершениям, которые, в свою очередь, должны
+            быть указаны как претенденты на роль ключевых факторов.
+            Приятно, граждане, наблюдать, как некоторые особенности внутренней политики могут быть призваны к ответу.
+            Явные признаки победы институционализации набирают популярность среди определенных слоев населения, а
+            значит,
+            должны быть объединены в целые кластеры себе подобных. Банальные, но неопровержимые выводы, а также многие
+            известные личности призывают нас к новым свершениям, которые, в свою очередь, должны быть представлены в
+            исключительно положительном свете.
+          </p>
+        </div>
+
+        <h3 class="faq__list-item">
+          <span class="faq__multyply-string">
+            У меня есть свой проект. Сможем ли мы его доработать<span class="slash-symbol">/</span>реализовать?
+          </span>
+          <button class="faq__list-item-button"
+            aria-label="У меня есть свой проект. Сможем ли мы его доработать или реализовать?" type="button"></button>
+        </h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vero temporibus soluta porro
+            suscipit officiis ex possimus quae. Vitae illum asperiores officiis nisi libero dignissimos repellat? Soluta
+            porro eligendi odit?
+          </p>
+        </div>
+
+        <h3 class="faq__list-item">
+          Я выбираю между разными компаниями. В чём ваше отличие?
+          <button class="faq__list-item-button" aria-label="Я выбираю между разными компаниями. В чём ваше отличие?"
+            type="button"></button>
+        </h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vero temporibus soluta porro
+            suscipit officiis ex possimus quae. Vitae illum asperiores officiis nisi libero dignissimos repellat? Soluta
+            porro eligendi odit?
+          </p>
+        </div>
+
+        <h3 class="faq__list-item">
+          <span class="faq__multyply-string">
+            Могу ли я делегировать вам работу<span class="slash-symbol">/</span>согласование с подрядчиком<span
+              class="slash-symbol">/</span>организацией?
+          </span>
+          <button class="faq__list-item-button"
+            aria-label="Могу ли я делегировать вам работу или согласование с подрядчиком?" type="button"></button>
+        </h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vero temporibus soluta porro
+            suscipit officiis ex possimus quae. Vitae illum asperiores officiis nisi libero dignissimos repellat? Soluta
+            porro eligendi odit?
+          </p>
+        </div>
+
+        <h3 class="faq__list-item">
+          Могу ли я вернуть деньги на каком-либо из этапов работ?
+          <button class="faq__list-item-button" aria-label="Могу ли я вернуть деньги на каком-либо из этапов работ?"
+            type="button"></button>
+        </h3>
+        <div>
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Reprehenderit vero temporibus soluta porro
+            suscipit officiis ex possimus quae. Vitae illum asperiores officiis nisi libero dignissimos repellat? Soluta
+            porro eligendi odit?
+          </p>
+        </div>
+
+      </div>
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-left">
+      <a href="#"><img class="footer_logo" src="img/logo_2-1.png" alt="Логотип"></a>
+      <p class="footer-left__description">
+        Высокий уровень вовлечения представителей целевой аудитории является четким доказательством простого факта:
+        разбавленное изрядной
+        долей эмпатии, рациональное мышление позволяет оценить значение модели развития. Таким образом, консультация с
+        широким активом обеспечивает
+        широкому кругу (специалистов) участие в формировании стандартных подходов.
+      </p>
+      <ul class="footer__social-list">
+        <li class="footer__social-list_item">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="footer__social-list_image" src="img/fb.svg" alt="Facebook">
+          </a>
+        </li>
+        <li class="footer__social-list_item">
+          <a href="https://vk.com/" target="_blank">
+            <img class="footer__social-list_image" src="img/vk.svg" alt="Vkontakte">
+          </a>
+        </li>
+        <li class="footer__social-list_item">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="footer__social-list_image" src="img/instagramm.svg" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+
+    <article class="footer-center">
+      <h2 class="footer-center__title">Оставить заявку</h2>
+      <form class="footer-center__form" action="URL" method="POST">
+        <input class="footer-center__form_input-field" aria-label="Введите фамилию, имя и отчество" name="initials"
+          type="text" placeholder="Фамилия, имя и отчество*" required>
+        <input class="footer-center__form_input-field" aria-label="Введите адрес Вашей электронной почты" name="email"
+          type="email" placeholder="E-mail*" required>
+        <textarea class="footer-center__form_input-field footer-center__form_textarea-field"
+          aria-label="Введите текст сообщения" placeholder="Сообщение"></textarea>
+        <div>
+          <button class="footer-center__form_button" type="submit">Отправить данные</button>
+          <label class="footer-center__form_checkbox-description" >
+            <input class="footer-center__form_checkbox" type="checkbox" name="submit-personal-data" value="yes" checked>
+            <span></span>
+            Согласен на обработку данных
+          </label>
+        </div>
+      </form>
+    </article>
+
+    <div class="footer-right">
+      <a href="#"><img class="footer-right_logo footer_logo" src="img/logo_2-1.png" alt="Логотип"></a>
+      <ul class="footer-right__list">
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            О нас
+          </a>
+        </li>
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            Проекты
+          </a>
+        </li>
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            Отзывы
+          </a>
+        </li>
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            Договор оферты
+          </a>
+        </li>
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            Договор подряда
+          </a>
+        </li>
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            Конфиденциальность
+          </a>
+        </li>
+        <li class="footer-right__list-item">
+          <a class="footer-right__list-item_link" href="#">
+            Партнёрское соглашение
+          </a>
+        </li>
+      </ul>
+      <ul class="footer__social-list footer-right__social-list">
+        <li class="footer__social-list_item">
+          <a href="https://www.facebook.com/" target="_blank">
+            <img class="footer__social-list_image" src="img/fb.svg" alt="Facebook">
+          </a>
+        </li>
+        <li class="footer__social-list_item">
+          <a href="https://vk.com/" target="_blank">
+            <img class="footer__social-list_image" src="img/vk.svg" alt="Vkontakte">
+          </a>
+        </li>
+        <li class="footer__social-list_item">
+          <a href="https://www.instagram.com/" target="_blank">
+            <img class="footer__social-list_image" src="img/instagramm.svg" alt="Instagram">
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+<svg width="28" height="14" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with SVG Editor - http://github.com/mzalive/SVG Editor/ -->
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="16" width="30" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="#cacaca" id="svg_9" height="12" width="12" y="0.991349" x="1.030106" stroke-width="2" fill="none"/>
+  <rect stroke="#cacaca" id="svg_10" height="12" width="12" y="1.027987" x="14.989231" stroke-width="2" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_12" y2="10.150874" x2="6.03122" y1="4.288783" x1="10.830807" fill-opacity="null" stroke-width="2" stroke="#97ee3f" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_13" y2="6.81681" x2="3.136813" y1="10.22415" x1="7.240276" fill-opacity="null" stroke-width="2" stroke="#97ee3f" fill="none"/>
+ </g>
+</svg>

@@ -1,0 +1,12 @@
+<svg width="25" height="25" xmlns="http://www.w3.org/2000/svg">
+ <g>
+  <title>background</title>
+  <rect x="-1" y="-1" width="27" height="27" id="canvas_background" fill="none"/>
+ </g>
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#ff9900" ry="10.422896" rx="10.470927" id="svg_5" cy="11.534861" cx="11.491333" fill-opacity="null" stroke-width="2" fill="none"/>
+  <line stroke-linecap="null" stroke-linejoin="null" id="svg_4" y2="25.512108" x2="25.324484" y1="18.78766" x1="18.888226" fill-opacity="null" stroke-width="2" stroke="#ff9900" fill="none"/>
+ </g>
+</svg>
